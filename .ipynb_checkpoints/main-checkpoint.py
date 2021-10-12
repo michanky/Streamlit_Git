@@ -12,6 +12,9 @@ This app displays the information of Covid-19 cases around the world
 
 st.sidebar.header('User Input Features')
 
+# Web scraping of S&P 500 data
+#
+
 
 @st.cache
 def load_data():

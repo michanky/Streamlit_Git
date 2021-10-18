@@ -62,8 +62,6 @@ st.markdown(filedownload(df_selected_country_and_date), unsafe_allow_html=True)
 data = df_selected_country_and_date
 
 # Plot daily cases
-
-
 def daily_plot(country):
     df = data[data['Country'] == country]
     df.index = df['Date_reported']
